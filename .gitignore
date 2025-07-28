@@ -1,0 +1,19 @@
+# Created by venv; see https://docs.python.org/3/library/venv.html
+
+
+# venv
+lib/
+bin/
+venv/
+pyvenv.cfg
+
+
+# macOS
+.DS_Store
+
+
+# data files
+data/
+log/
+log/
+device_monitor.log
