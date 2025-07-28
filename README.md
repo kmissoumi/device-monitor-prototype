@@ -15,7 +15,9 @@ export SAUCE_USERNAME=""
 export SAUCE_REGION=eu-central-1
 
 mkdir -p data
-python device_monitor.py --region ${SAUCE_REGION} --debug --data-file ./data/device_monitoring-${SAUCE_REGION}-${SAUCE_USERNAME}.json
+python device_monitor.py --debug \
+    --region ${SAUCE_REGION} \
+    --data-file ./data/device_monitoring-${SAUCE_REGION}-${SAUCE_USERNAME}.json
 
 # menu navigation
 # q to quit
