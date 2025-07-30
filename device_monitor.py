@@ -32,7 +32,6 @@ from rich.live import Live
 from rich.layout import Layout
 from rich.align import Align
 from rich import box
-#import keyboard
 
 console = Console()
 
