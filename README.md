@@ -36,3 +36,7 @@ python device_monitor.py --debug \
 deactivate
 ```
 
+
+---
+![Alt Text](./device-monitor.gif)
+
